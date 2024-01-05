@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAN CARD APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="image">
+            <img src="https://www.pancardapp.com/assets/img/logo.png?v=20190406" height="70" width="200" style="margin-top: 5px;">
+        </div>
+    </header>
+    <main>
+        <h2 style="text-align: center; margin-top: 30px;">New PAN Card Application Form</h2>
+        <section class="sec-1">
+            <h4 style="margin-bottom: 10px;">APPLICANT NAME DETAIL</h4>
+            <p class="blue" style="margin-bottom: 5px;">Name as given in Aadhaar Card</p>
+            <input type="text" class="t1" placeholder="Enter your Full Name here"><br><br>
+            
+
+            <!---sec table box-->
+            <table>
+                <tr>
+                    <td><p class="blue" style="margin-bottom: 0px;">Surname/Last Name</p></td>
+                    <td><p class="blue" style="margin-bottom: 0px; margin-left: 20px;" >First Name</p></td>
+                    <td><p class="blue" style="margin-bottom: 0px;margin-left: 20px;">Middle Name<span class="small">[Father or Husband name]</span></p></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="t2"
+                           style="margin-top: 0px;"  placeholder="Enter your Surname here"></td>
+                        <td><input type="text" class="t3" 
+                            placeholder="Enter your First name here" style="margin-left: 20px;"></td>
+                        <td><input type="text" class="t4"
+                             placeholder="Enter your Middle name here" style="margin-left: 20px;"></td>
+                    </tr>
+            </table>
+            <!---selc group-->
+            <br><br>
+            <p class="blue" style="margin-bottom: 5px;">Name Identity Proof</p>
+            <select style="width: 100%; height: 40px;">
+                <option>Select Name Identity Proof</option>
+                <option>Aadhar Card</option>
+            </select>
+        </section>
+        <section class="sec-2">
+            <div>
+                <h4 style="margin-bottom: 0px;">FATHER'S NAME DETAIL</h4>
+                <table>
+                    <tr>
+                        <td><p class="blue" style="margin-bottom: 0px;margin-left: 0px;">Surname/Last Name</p></td>
+                        <td><p class="blue" style="margin-bottom: 0px;margin-left: 20px;">First Name</p></td>
+                        <td><p class="blue" style="margin-bottom: 0px;margin-left: 20px;">Middle Name</p></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" class="t5" 
+                                placeholder="Enter your Surname here"></td>
+                            <td><input type="text" class="t6" 
+                                placeholder="your First name here" style="margin-left: 20px;"></td>
+                            <td><input type="text" class="t7" 
+                                placeholder="Enter your Middle name here" style="margin-left: 20px;"></td>
+                        </tr>
+                </table>
+            </div>
+        </section>
+        <section class="sec-3">
+            <div>
+                <p class="blue" style="margin-top: 0px; margin-bottom: 5px; margin-left: 5px;">Applicant's Date Of Birth</p>
+                <table>
+                    <tr>
+                        <td><select class="t8" style="margin-bottom: 0px;">
+                            <option >Day</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                        </select></td>
+                        <td>
+                            <select class="t9">
+                                <option >Month</option>
+                                <option>Jan</option>
+                                <option>Feb</option>
+                                <option>Mar</option>
+                                <option>Apr</option>
+                                <option>May</option>
+                                <option>June</option>
+                                <option>July</option>
+</select></td>
+                        <td>
+                            <select class="t10">
+                                <option>Year</option>
+                                <option>2000</option> 
+                                <option>2001</option>
+                                <option>2002</option>
+                                <option>2003</option>
+                                <option>2004</option>
+                                <option>2005</option>
+                                <option>2006</option>
+</select></td>
+                    </tr>
+                </table>
+                <br>
+                <p class="blue" style="margin-top: 0px; margin-bottom: 5px;">Date Of Birth Proof</p>
+                <select style="width: 100%; height: 40px;">
+                    <option>Select Date of Birth Proof</option>
+                    <option>Aadhaar Card</option>
+                    <option>Election Card/Voter ID</option>
+                    <option>Driving License</option>
+                    <option>Passport</option>
+                    <option>Passport of Spouse (Husband/Wife)</option>
+                    <option>Electricity Bill less than 3 months old</option>
+                    <option>Landline/Broadband connection bill less than 3 months old</option>
+                    <option>Bank account statement less than 3 months old</option>
+                    <option>Post office passbook having of the applicant</option>
+                    <option>Water Bill less than 3 months old</option>
+                    <option>Consumer gas connection card or book or piped gas bill</option>
+                    <option>Latest property tax assessment order</option>
+                    <option>property Registration Document</option>
+                    <option>Certificate of Identity in original signed by a Gazetted officer</option>
+                    <option>Certificate of identity in Original signed by a member of Parliament</option>
+                    <option>Certificate of identity in Original signed by a Member of legislative Assembly</option>
+                    <option>Certificate of identityin Original signed by a Municipal Councilor</option>
+                    <option>Credit card statement less than 3 months old</option>
+                    <option>Employer certificate in original</option>
+                </select>
+            </div>
+        </section>
+        <section class="sec-4">
+            <div>
+            <p class="blue" style="margin-top: 0px; margin-bottom: 5px;">Address Proof *</p>
+            <select style="width: 100%; height: 40px;">
+                <option>Select Date of Birth Proof</option>
+                <option>Aadhaar Card</option>
+                <option>Election Card/Voter ID</option>
+                <option>Driving License</option>
+                <option>Passport</option>
+                <option>Passport of Spouse (Husband/Wife)</option>
+                <option>Electricity Bill less than 3 months old</option>
+                <option>Landline/Broadband connection bill less than 3 months old</option>
+                <option>Bank account statement less than 3 months old</option>
+                <option>Post office passbook having of the applicant</option>
+                <option>Water Bill less than 3 months old</option>
+                <option>Consumer gas connection card or book or piped gas bill</option>
+                <option>Latest property tax assessment order</option>
+                <option>property Registration Document</option>
+                <option>Certificate of Identity in original signed by a Gazetted officer</option>
+                <option>Certificate of identity in Original signed by a member of Parliament</option>
+                <option>Certificate of identity in Original signed by a Member of legislative Assembly</option>
+                <option>Certificate of identityin Original signed by a Municipal Councilor</option>
+                <option>Credit card statement less than 3 months old</option>
+                <option>Employer certificate in original</option>
+             
+            </select>
+            <br><br>
+            <p class="blue" style="margin-top: 0px; margin-bottom: 5px;">Mobile Number</p>
+            <input class="t11" type="text" style="width: 35px; height: 20px;" placeholder="+91">
+            <input type="number" style="width: 855px; height: 30px; ;" 
+            placeholder="Enter your Mobile number here">
+            <br><br>
+            <p class="blue"style="margin-top: 0px; margin-bottom: 5px;">Email ID</p>
+            <input class="t12" type="text" 
+           style="width: 99%; height: 35px;" placeholder="Enter your Email ID here">
+            
+        </section>
+        </main>
+       
+        <h2><input class="t13" type="button" value="SUBMIT"></h2>
+</body>
+</html>
